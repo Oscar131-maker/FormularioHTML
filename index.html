@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+<body>
+
+    <!-- Form container -->
+    <section id="form-width">
+      
+        <form id="form-container">
+          <div class="row">
+            <!-- form input -->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+               <!-- logo -->
+               <div class="logotipe d-flex justify-content-center">
+                   <a href="#" class="d-flex align-items-center">
+                       <img src="images/logotipe.svg" class="img-fluid">
+                       <h3 class="ubuntu">Logotipe</h3>
+                   </a>
+               </div>
+
+                <h4 class="text-center text-uppercase anton">Bienvenidos</h4>
+                <hr>
+               
+                <!-- inputs -->
+                <div class="inputs-form form-group">
+                    <label for="username" class="ubuntu">Nombre y apellido:</label>
+                    <input type="text" name="username" id="username" class="form-control mb-4" required>
+
+                    <label for="email_form" class="ubuntu">Correo Electrónico:</label>
+                    <input type="email" name="email_form" id="email_form" class="form-control mb-4" required>
+
+                    <div class="form-group mt-2">
+                        <input type="checkbox" name="accept_terms" value="" required>
+                        <label for="accept_terms">Acepto términos y condiciones.</label>
+                    </div>
+
+                    <button type="submit" class="btn mt-1 ubuntu" id="send-form">Enviar</button>
+
+                </div>
+
+            </div>
+
+            <!-- form img -->
+            <div class="col-lg-6 col-md-12 col-sm-12">
+             <figure class="w-100 img-form">
+                 <img src="images/image-1.svg">
+             </figure>
+
+            </div>
+             
+          </div>
+        </form>
+
+    </section>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
